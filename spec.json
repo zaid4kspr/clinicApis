@@ -1,0 +1,221 @@
+[{
+  "_id": {
+    "$oid": "5fcb7802629e437fa44fb494"
+  },
+  "name": "Pédopsychiatre"
+},{
+  "_id": {
+    "$oid": "5fcb7802629e437fa44fb496"
+  },
+  "name": "Radiothérapeute Carcinologue"
+},{
+  "_id": {
+    "$oid": "5fcb7802629e437fa44fb497"
+  },
+  "name": "Anesthésiste - réanimateur"
+},{
+  "_id": {
+    "$oid": "5fcb7802629e437fa44fb484"
+  },
+  "name": "Réanimateur Médicale"
+},{
+  "_id": {
+    "$oid": "5fcb7802629e437fa44fb49d"
+  },
+  "name": "Chirurgien Vasculaire périphérique"
+},{
+  "_id": {
+    "$oid": "5fcb7802629e437fa44fb485"
+  },
+  "name": "Carcinologue Médicale"
+},{
+  "_id": {
+    "$oid": "5fcb7802629e437fa44fb48b"
+  },
+  "name": "Pneumologue"
+},{
+  "_id": {
+    "$oid": "5fcb7802629e437fa44fb48e"
+  },
+  "name": "Rhumatologue"
+},{
+  "_id": {
+    "$oid": "5fcb7802629e437fa44fb483"
+  },
+  "name": "Infectiologue"
+},{
+  "_id": {
+    "$oid": "5fcb7802629e437fa44fb493"
+  },
+  "name": "Psychiatre"
+},{
+  "_id": {
+    "$oid": "5fcb7802629e437fa44fb4a0"
+  },
+  "name": "Chirurgien Plastique, Réparateur et Esthétique"
+},{
+  "_id": {
+    "$oid": "5fcb7802629e437fa44fb4a1"
+  },
+  "name": "Chirurgien Orthopédiste et Traumatologue"
+},{
+  "_id": {
+    "$oid": "5fcb7802629e437fa44fb4a7"
+  },
+  "name": "Chirurgien maxillo-faciale et Stomatologie"
+},{
+  "_id": {
+    "$oid": "5fcb7802629e437fa44fb4a9"
+  },
+  "name": "Généticien"
+},{
+  "_id": {
+    "$oid": "5fcb7802629e437fa44fb4ab"
+  },
+  "name": "Laboratoire d’Anatomo-cyto-pathologie"
+},{
+  "_id": {
+    "$oid": "5fcb7802629e437fa44fb4ae"
+  },
+  "name": "Médecin de Famille"
+},{
+  "_id": {
+    "$oid": "5fcb7802629e437fa44fb48c"
+  },
+  "name": "Neurologue"
+},{
+  "_id": {
+    "$oid": "5fcb7802629e437fa44fb490"
+  },
+  "name": "Médecine physique, rééducation et réadaptation fonctionnelle"
+},{
+  "_id": {
+    "$oid": "5fcb7802629e437fa44fb499"
+  },
+  "name": "Chirurgien Viscérale et Digestive"
+},{
+  "_id": {
+    "$oid": "5fcb7802629e437fa44fb482"
+  },
+  "name": "Interniste"
+},{
+  "_id": {
+    "$oid": "5fcb7802629e437fa44fb48f"
+  },
+  "name": "Gastro-entérologue"
+},{
+  "_id": {
+    "$oid": "5fcb7802629e437fa44fb495"
+  },
+  "name": "Radiologue"
+},{
+  "_id": {
+    "$oid": "5fcb7802629e437fa44fb48a"
+  },
+  "name": "Néphrologue"
+},{
+  "_id": {
+    "$oid": "5fcb7802629e437fa44fb48d"
+  },
+  "name": "Dentiste"
+},{
+  "_id": {
+    "$oid": "5fcb7802629e437fa44fb4a2"
+  },
+  "name": "Chirurgien Pédiatrique"
+},{
+  "_id": {
+    "$oid": "5fcb7802629e437fa44fb498"
+  },
+  "name": "Urgentiste"
+},{
+  "_id": {
+    "$oid": "5fcb7802629e437fa44fb49a"
+  },
+  "name": "Chirurgie Générale"
+},{
+  "_id": {
+    "$oid": "5fcb7802629e437fa44fb486"
+  },
+  "name": "Nutritionniste"
+},{
+  "_id": {
+    "$oid": "5fcb7802629e437fa44fb491"
+  },
+  "name": "Dermatologue"
+},{
+  "_id": {
+    "$oid": "5fcb7802629e437fa44fb49c"
+  },
+  "name": "Chirurgien thoracique"
+},{
+  "_id": {
+    "$oid": "5fcb7802629e437fa44fb4ad"
+  },
+  "name": "Généraliste"
+},{
+  "_id": {
+    "$oid": "5fcb7802629e437fa44fb488"
+  },
+  "name": "Endocrinologue"
+},{
+  "_id": {
+    "$oid": "5fcb7802629e437fa44fb4a8"
+  },
+  "name": "Gynécologue Obstétricien"
+},{
+  "_id": {
+    "$oid": "5fcb7802629e437fa44fb487"
+  },
+  "name": "Hématologue"
+},{
+  "_id": {
+    "$oid": "5fcb7802629e437fa44fb4a3"
+  },
+  "name": "Chirurgien Cardio-vasculaire"
+},{
+  "_id": {
+    "$oid": "5fcb7802629e437fa44fb4a5"
+  },
+  "name": "Oto-Rhino Laryngologiste"
+},{
+  "_id": {
+    "$oid": "5fcb7802629e437fa44fb4aa"
+  },
+  "name": "Laboratoire d’Analyses Médicales"
+},{
+  "_id": {
+    "$oid": "5fcb7802629e437fa44fb4ac"
+  },
+  "name": "Laboratoire de Cyto-génétique"
+},{
+  "_id": {
+    "$oid": "5fcb7802629e437fa44fb492"
+  },
+  "name": "Pédiatre"
+},{
+  "_id": {
+    "$oid": "5fcb7802629e437fa44fb49e"
+  },
+  "name": "Neuro-chirurgien"
+},{
+  "_id": {
+    "$oid": "5fcb7802629e437fa44fb489"
+  },
+  "name": "Cardiologue"
+},{
+  "_id": {
+    "$oid": "5fcb7802629e437fa44fb49b"
+  },
+  "name": "Chirurgien carcinologue"
+},{
+  "_id": {
+    "$oid": "5fcb7802629e437fa44fb49f"
+  },
+  "name": "Urologue"
+},{
+  "_id": {
+    "$oid": "5fcb7802629e437fa44fb4a4"
+  },
+  "name": "Ophtalmologue"
+}]

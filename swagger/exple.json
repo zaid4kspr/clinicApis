@@ -1,0 +1,190 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "1.0.0",
+        "title": "Doctors-NodeJS-CRUD-REST-API",
+        "description": "doctors"
+     
+    },
+
+    "tags": [
+        {
+            "name": "users",
+            "description": "API for users in the system"
+        }
+    ],
+    "consumes": [
+        "application/json"
+    ],
+    "produces": [
+        "application/json"
+    ],
+    "paths": {
+        "/users": {
+            "get": {
+                "tags": [
+                    "users"
+                ],
+                "summary": "Get all users in system"
+            
+            },
+            "post": {
+                "tags": [
+                    "users"
+                ],
+                "summary": "Create a new user in system",
+                "requestBody": {
+                    "description": "User Object",
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "$ref": "#/definitions/User"
+                            } ,
+                             "additionalProperties": {
+                                "$ref": "#/definitions/cat"
+                            }
+                            
+                        }
+                    }
+                },
+                "produces": [
+                    "application/json"
+                ]
+           
+            }
+        },
+        "/users/{id}": {
+            "parameters": [
+                {
+                    "name": "id",
+                    "in": "path",
+                    "required": true,
+                    "description": "ID of the user that we want to match",
+                    "type": "string"
+                }
+            ],
+            "get": {
+                "tags": [
+                    "users"
+                ],
+                "summary": "Get user with given ID",
+                "parameters": [
+                    {
+                        "in": "path",
+                        "name": "id",
+                        "required": true,
+                        "description": "User with id",
+                        "schema": {
+                            "$ref": "#/definitions/id"
+                        }
+                    }
+                ]
+           
+            },
+            "put": {
+                "summary": "Update user with given ID",
+                "tags": [
+                    "users"
+                ],
+                "requestBody": {
+                    "description": "User Object",
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "$ref": "#/definitions/User"
+                            }
+                        }
+                    }
+                },
+                "parameters": [
+                    {
+                        "in": "path",
+                        "name": "id",
+                        "required": true,
+                        "description": "User with new values of properties",
+                        "schema": {
+                            "$ref": "#/definitions/id"
+                        }
+                    }
+                ]
+            
+            },
+            "delete": {
+                "summary": "Delete user with given ID",
+                "tags": [
+                    "users"
+                ],
+                "parameters": [
+                    {
+                        "in": "path",
+                        "name": "id",
+                        "required": true,
+                        "description": "Delete User with id",
+                        "schema": {
+                            "$ref": "#/definitions/id"
+                        }
+                    }
+                ]
+              
+            }
+        }
+    },
+    "definitions": {
+        "id": {
+            "properties": {
+                "uuid": {
+                    "type": "string"
+                }
+            }
+        },
+     
+        "users": {
+            "type": "object",
+            "properties": {
+                "users": {
+                    "type": "object",
+                    "additionalProperties": {
+                        "$ref": "#/definitions/User"
+                    }
+                }
+            }
+        },
+    
+        "User": {
+            "type": "object",
+            "properties": {
+                "name": {
+                    "type": "string"
+                },
+                "lastName": {
+                    "type": "string"
+                },
+                "sexe": {
+                    "type": "number"
+                },
+                "email": {
+                    "type": "string"
+                },
+                "password": {
+                    "type": "string"
+                },
+                "birthday": {
+                    "type": "Date"
+                },
+                "tel": {
+                    "type": "string"
+                }
+            }
+        } ,
+         "cat": {
+            "type": "object",
+            "properties": {
+                "zzz": {
+                    "type": "string"
+                }
+            }
+        }
+    }
+}

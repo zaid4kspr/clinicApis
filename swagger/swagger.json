@@ -1,0 +1,107 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "title": "Doctors API",
+        "description": "Doctors API ",
+        "contact": {
+            "name": "Amazing Developer"
+        }
+      
+    },
+    "host": "http://localhost:3000",
+    "basePath": "",
+    "tags": [
+        {
+            "name": "Doctors",
+            "description": "api docs"
+        }
+    ],
+    "schemes": [
+        "http",
+        "https"
+    ],
+    "consumes": [
+        "application/json"
+    ],
+    "produces": [
+        "application/json"
+    ],
+    "paths": {
+        "/users/register": {
+            "post": {
+                "tags": [
+                    "Doctors"
+                ],
+                "requestBody": {
+                    "description": "Cat Object",
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "$ref": "#/definitions/Cat"
+                            }
+                        }
+                    }
+                },
+                "produces": [
+                    "application/json"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "OK"
+                     
+                    },
+                    "400": {
+                        "description": "Failed. Bad post data."
+                    }
+                }
+             
+            }
+        }
+    },
+    "definitions": {
+        "Cat": {
+            "type": "object",
+            "properties": {
+                "genus": {
+                    "type": "string"
+                },
+                "name": {
+                    "type": "string"
+                },
+                "isHungry": {
+                    "type": "boolean"
+                },
+                "lastFedDate": {
+                    "type": "string"
+                }
+            }
+        },
+        "user": {
+            "type": "object",
+            "properties": {
+                "name": {
+                    "type": "String"
+                },
+                "lastName": {
+                    "type": "String"
+                },
+                "sexe": {
+                    "type": "Number"
+                },
+                "email": {
+                    "type": "String"
+                },
+                "password": {
+                    "type": "String"
+                },
+                "birthday": {
+                    "type": "Date"
+                },
+                "tel": {
+                    "type": "String"
+                }
+            }
+        }
+    }
+}
